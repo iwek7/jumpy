@@ -92,7 +92,6 @@ fn update_input(
             control.grab_pressed = grab_pressed;
 
             let shoot_pressed = action_state.pressed(PlayerAction::Shoot);
-            control.shoot_just_pressed = shoot_pressed && !control.shoot_pressed;
             control.shoot_pressed = shoot_pressed;
 
             let was_moving = control.move_direction.length_squared() > f32::MIN_POSITIVE;

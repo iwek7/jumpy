@@ -47,7 +47,6 @@ pub struct PlayerControl {
     pub jump_just_pressed: bool,
 
     pub shoot_pressed: bool,
-    pub shoot_just_pressed: bool,
 
     pub grab_pressed: bool,
     pub grab_just_pressed: bool,
