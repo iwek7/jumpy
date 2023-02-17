@@ -8,7 +8,7 @@ builtin: !Sword
   grab_offset: [18, 26]
   body_size: [50, 8]
   # The minimum speed the sword must be moving to kill somebody
-  killing_speed: 7
+  killing_speed: 7.25
   angular_velocity: -0.04
   can_rotate: true
   bounciness: 0.32
